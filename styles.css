@@ -90,7 +90,7 @@ nav {
 }
 
 .logo-container p {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
 }
 
 nav a:link,
@@ -221,10 +221,6 @@ input[type="search"] {
     align-items: center;
 }
 
-.notifications {
-    transition: all 0.2s;
-}
-
 .notifications img:hover {
     transform: rotate(25deg);
     animation: vibrate 0.2s 2;
@@ -232,11 +228,11 @@ input[type="search"] {
 
 @keyframes vibrate {
     25% {
-        transform: rotate(25deg);
+        transform: rotate(-25deg);
     }
 
     75% {
-        transform: rotate(-25deg);
+        transform: rotate(25deg);
     }
 }
 
@@ -274,7 +270,7 @@ input[type="search"] {
 .announcement {
     padding: 1.5rem;
     cursor: pointer;
-    transition: all 0.4s;
+    transition: font-size;
 }
 
 .announcement:hover {
@@ -312,7 +308,7 @@ input[type="search"] {
     display: flex;
     gap: 1.8rem;
     align-items: center;
-    transition: all 0.4s;
+    transition: font-size;
 }
 
 .trending:hover {
@@ -355,7 +351,7 @@ input[type="search"] {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    transition: all 0.4s;
+    transition: font-size;
 }
 
 .card:hover {
