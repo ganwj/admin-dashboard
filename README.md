@@ -1,1 +1,3 @@
-# admin-dashboard
+# Dashboard
+
+A simple implementation of the dashboard UI.
