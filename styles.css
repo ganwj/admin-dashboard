@@ -53,7 +53,7 @@ nav {
     background-color: var(--primary-color);
     color: var(--white);
     font-weight: 700;
-    padding: 3rem;
+    padding: 1.8rem 3rem;
     display: grid;
     grid-template-rows: auto auto 1fr;
     gap: 3rem;
@@ -117,7 +117,8 @@ header {
     display: grid;
     grid-template-columns: 6fr 4fr;
     padding: 1.4rem 2.8rem;
-    gap: 2rem;
+    row-gap: 2rem;
+    column-gap: 8rem;
     background-color: var(--white);
     box-shadow: 0 0.3rem 0.3rem rgba(168, 168, 168, 0.5);
     z-index: 10;
@@ -143,15 +144,15 @@ input[type="search"] {
     justify-self: end;
     display: flex;
     align-items: center;
-    gap: 3rem;
-    margin-right: 2rem;
+    gap: 2.4rem;
+    margin-right: 0.5rem;
 }
 
 .profile:link,
 .profile:visited {
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1.2rem;
     text-decoration: none;
     font-weight: 700;
     font-size: 1.4rem;
@@ -217,7 +218,7 @@ input[type="search"] {
 .search-container {
     align-self: center;
     display: flex;
-    gap: 1rem;
+    gap: 0.8rem;
     align-items: center;
 }
 
@@ -252,7 +253,7 @@ input[type="search"] {
     grid-row: 1 / -1;
 }
 
-.article-title {
+article h4.article-title {
     font-size: 1.7rem;
 }
 
@@ -262,7 +263,7 @@ input[type="search"] {
 .announcement-container {
     background-color: var(--white);
     padding: 1rem 2rem;
-    margin-top: 1.6rem;
+    margin-top: 1.2rem;
     border-radius: 1rem;
     box-shadow: 0.3rem 0.3rem 0.3rem rgba(168, 168, 168, 0.5);
 }
@@ -277,12 +278,12 @@ input[type="search"] {
     transform: scale(1.03);
 }
 
-.announcement-title {
+article.announcement .announcement-title {
     margin-bottom: 0.8rem;
     font-size: 1.5rem;
 }
 
-.announcement p {
+article.announcement p {
     color: var(--gray);
     display: -webkit-box;
     -webkit-line-clamp: 3;
@@ -297,7 +298,7 @@ input[type="search"] {
 .trending-container {
     background-color: var(--white);
     padding: 1rem 2rem;
-    margin-top: 1.6rem;
+    margin-top: 1.2rem;
     border-radius: 1rem;
     box-shadow: 0.3rem 0.3rem 0.3rem rgba(168, 168, 168, 0.5);
 }
@@ -334,7 +335,7 @@ input[type="search"] {
     PROJECT ARTICLE LAYOUT
 *******************************/
 .card-container {
-    margin-top: 1.6rem;
+    margin-top: 1.2rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 2rem;
